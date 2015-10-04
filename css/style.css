@@ -7,11 +7,14 @@
 	padding: 0px;
 	margin: auto;
 	position: absolute;
-	top:0px;
-	bottom:0px;
 	left:0px;
 	right:0px;
 	border: 5px solid navy;
+    background-color: white;
+}
+
+.event{
+    margin: 2px;
 }
 
 .event-logo{
@@ -21,11 +24,13 @@
 	padding: 0px;
 	margin: 0px;
 	border: 5px solid #FF0004;
+    background-color: white;
 }
 
 .event-content{
 	position:absolute;
 	top:0px;
 	left:5px;
+    padding: 10px;
 }
 		
