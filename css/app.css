@@ -1,7 +1,7 @@
 /* Application Styles */
 
 html {
-	background-image: url(../imgs/stage_bg.jpg);
+	background-image: url();
 	background-repeat: repeat;
 }
 
@@ -98,3 +98,4 @@ header nav ul li a:hover {
 	filter: grayscale(0%);
 	box-shadow: 0 0 2px 2px gray;
 }
+

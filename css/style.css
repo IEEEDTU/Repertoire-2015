@@ -36,7 +36,7 @@
 	left: 0;
 	right: 0;
 	margin: auto;
-	padding: 1em;
+	padding: 1.5em;
 	width: 100%;
 }
 
@@ -47,4 +47,9 @@
 
 .event-content p {
 	text-align: justify
+}
+
+.event-content p em {
+	display: block;
+	text-align: center
 }
