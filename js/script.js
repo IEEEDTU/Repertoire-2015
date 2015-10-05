@@ -20,20 +20,20 @@ $(document).ready(function() {
 
 function openAccordion(current) {
 	$('[data-pos="tl"]').animate({
-			top:"-100px",
-			left:"-100px" 
+			//top:"-250px",
+			left:"-250px" 
   		}, 500);
 		$('[data-pos="tr"]').animate({
-			top:"-100px",
-			right:"-100px" 
+			//top:"-250px",
+			right:"-250px" 
   		}, 500);
 		$('[data-pos="bl"]').animate({
-			bottom:"-100px",
-			left:"-100px" 
+			//bottom:"-250px",
+			left:"-250px" 
   		}, 500);
 		$('[data-pos="br"]').animate({
-			bottom:"-100px",
-			right:"-100px" 
+			//bottom:"-250px",
+			right:"-250px" 
   		}, 500);
 } 
 

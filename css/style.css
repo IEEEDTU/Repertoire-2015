@@ -1,36 +1,55 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 .container {
-	width: 230px;
-	height: 230px;
+	position: relative;
+	width: 530px;
+	height: 530px;
 	padding: 0px;
 	margin: auto;
-	position: absolute;
-	left:0px;
-	right:0px;
+	left: 0px;
+	right: 0px;
 	border: 5px solid navy;
-    background-color: white;
+	background-color: white;
 }
 
-.event{
-    margin: 2px;
+.event {
+	margin: 2px;
 }
 
-.event-logo{
-	position:relative;
-	height: 100px;
-	width: 100px;
+.event-logo {
+	position: relative;
+	height: 250px;
+	width: 250px;
 	padding: 0px;
 	margin: 0px;
 	border: 5px solid #FF0004;
-    background-color: white;
+	background-color: white;
+	z-index: 10
 }
 
-.event-content{
-	position:absolute;
-	top:0px;
-	left:5px;
-    padding: 10px;
+.event-content {
+	box-sizing:border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 1.5em;
+	width: 100%;
 }
-		
+
+.event-content h3 {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.event-content p {
+	text-align: justify
+}
+
+.event-content p em {
+	display: block;
+	text-align: center
+}
