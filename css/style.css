@@ -10,7 +10,7 @@
 	margin: auto;
 	left: 0px;
 	right: 0px;
-	border: 5px solid navy;
+	border: 5px solid #19b4cb;
 	background-color: white;
 }
 
@@ -24,9 +24,19 @@
 	width: 250px;
 	padding: 0px;
 	margin: 0px;
-	border: 5px solid #FF0004;
+	border: 5px solid #19d4ae;
 	background-color: white;
 	z-index: 10
+}
+
+.event-logo img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 }
 
 .event-content {
