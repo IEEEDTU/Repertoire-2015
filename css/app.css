@@ -1,5 +1,5 @@
 /* Application Styles */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
 html {
 	background-image: url(../imgs/stage_bg.jpg);
 	background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 	padding: 0.5em;
 	background-color: hsla(0,0%,95%,0.8);
 	border-radius: 10px;
-	font-family: Roboto;
+	font-family: Nunito, sans-serif;
 	font-weight: 400
 }
 
@@ -129,9 +129,14 @@ header nav ul li a:hover {
 
 #bCont {
 	display: block;
-	margin: 1em auto;
+	margin: 1em auto 0;
 	padding: 1em;
 	text-align: center
+}
+
+#bCont p {
+	display: inline-block;
+	margin: 0 2em 1em;
 }
 
 #contact {
@@ -143,3 +148,21 @@ caption {
 	text-align: center;
 	position:
 }
+
+#spave_icon {
+	background: #f16e2a
+}
+
+#junky_icon {
+	background: #96aa3b
+}
+
+#vihaan_logo {
+	background: #be1e74
+}
+
+#panache_icon {
+	background: #fcd50b
+}
+
+
