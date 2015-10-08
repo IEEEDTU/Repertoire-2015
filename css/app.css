@@ -134,6 +134,10 @@ header nav ul li a:hover {
 	text-align: center
 }
 
+#bCont a {
+	text-decoration: underline
+}
+
 #bCont p {
 	display: inline-block;
 	margin: 0 2em 1em;
