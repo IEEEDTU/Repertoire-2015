@@ -4,14 +4,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Sample page</title>
-	<meta name="description" content="">
+	<title>Repertoire 2015 | IEEE DTU</title>
+	<meta name="description" content="Repertoire is a techno-management fest that is aimed at bringing out the managerial side of the usual techno-geeks of Delhi-NCR, and giving them a chance to develop their business acumen.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
 
 	<link rel="stylesheet" href="lib/normalize/normalize.css">
+	<link rel="stylesheet" href="lib/jcider.css">
 	<link rel="stylesheet" href="css/app.css">
-	<link rel="stylesheet" href="css/scroller.css">
+	<!--<link rel="stylesheet" href="css/scroller.css">-->
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -27,75 +28,52 @@
 		<nav>
 			<ul>
 				<li><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT</a></li>
+				<li><a href="#about">ABOUT</a></li>
 				<li><a href="#">EVENTS</a></li>
 				<li><a href="#">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<!--<div id="scroller">
-		
-		<div class="banner">
-			<img class="first" src="imgs\image1.jpg" alt="">
-			<img src="imgs\image2.jpg" alt="">
-			<img src="imgs\image3.jpg" alt="">
-			<img src="imgs\image4.jpg" alt="">
-			<img src="imgs\image5.jpg" alt="">
-			<img src="imgs\image6.jpg" alt="">
-			<img src="imgs\image1.jpg" alt="">
-			<img src="imgs\image2.jpg" alt="">
-			<img src="imgs\image3.jpg" alt="">
-			<img src="imgs\image4.jpg" alt="">
-
-		</div>
-	</div>-->
-
-	<div id="slider">
+	<div id="slider" style="width:640px;display:block;margin:1em auto">
 	
-	<!-- Sildes -->
-	<img id="one" src="imgs\image1.jpg" />
-	<img id="two" src="imgs\image2.jpg" />
-	<img id="three" src="imgs\image3.jpg" />
-	<img id="four" src="imgs\image4.jpg" />
-	<img id="five" src="imgs\image5.jpg" />
-	
-	<!-- Links for the slides! -->
-	<ul>
-		<li>
-			<a href="#one"></a>
-		</li>
-		<li>
-			<a href="#two"></a>
-		</li>
-		<li>
-			<a href="#three"></a>
-		</li>
-		<li>
-			<a href="#four"></a>
-		</li>
-		<li>
-			<a href="#five"></a>
-		</li>
-	</ul>
-</div>
-</body>
-
-</html>
-	
-	<div id="intro">
-		<h1>Welcome to Repertoire '15</h1>
-		<img>
-		<p></p>
+		<!-- Sildes -->
+		<ul>
+			<li><img src="imgs\image1.jpg" /></li>
+			<li><img src="imgs\image2.jpg" /></li>
+			<li><img src="imgs\image3.jpg" /></li>
+			<li><img src="imgs\image4.jpg" /></li>
+			<li><img src="imgs\image5.jpg" /></li>
+		</ul>
 	</div>
 	
+	<div id="about">
+		<h1>Welcome to Repertoire '15</h1>
+		<img>
+		<p>With the legacy of IEEE , Delhi Technological University being a fountainhead of science and technology, Repertoire has evolved way past its years and now, is ardently recognized as one of the top-notch technical fests in the mainland. Repertoire is a techno-management fest that is aimed at bringing out the managerial side of the usual techno-geeks of Delhi-NCR, and giving them a chance to develop their business acumen.</p>
+		<p>Repertoire is known for hosting a variety of events that includes a large participation and a very good competition among different colleges. The festival involves events like Panache –The Ultimate Quizzing Extravaganza, SPAVe – Test your Business Acumen, Junkyard- Innovate from Junk and Vihaan- Express Engage Empower.</p>
+	</div>
+	
+	
+	<div id="bCont">
+		<h1>Event Iternary</h1>
+		<section>
+			<h2>Sponsored by</h2>
+			<p id="air"><img src="imgs/air.png" width="100"><br><a href="http://allindiaradio.gov.in">All India Radio</a><br>(Media Partner)</p>
+			<p id="ims"><img src="imgs/IMS.png" width="100"><br><a href="http://imsindia.com">IMS</a><br>(Career Partner)</p>
+			<p id="blx"><img src="imgs/bleedx.png" width="100"><br><a href="https://www.facebook.com/BleedXPhotography">BleedX Photgraphy</a><br>(Photography Partner)</p>
+		</section>
+	</div>
 	<!--Event Itenary-->
 	<div class="container">
+		
 		<table>
 			<tr>
 				<td>
 					<div class="event">
-						<div class="event-logo" data-pos="tl" data-event="#event01">Panache</div>
+						<div class="event-logo" data-pos="tl" data-event="#event01">
+						<img src="imgs/logos/PANACHE.png" id="panache_icon">
+						</div>
 						<div class="event-content" id="event01">
 							<h3>Panache</h3>
 							<p><em>“Scholar and kings are never compared. Kings are worshipped in their country, but scholars are worshipped everywhere.”</em></p>
@@ -107,9 +85,11 @@
 				</td>
 				<td>
 					<div class="event">
-						<div class="event-logo" data-pos="tr" data-event="#event02">SPAVe</div>
+						<div class="event-logo" data-pos="tr" data-event="#event02">
+							<img src="imgs/logos/SPAVE.png" id="spave_icon">
+						</div>
 						<div class="event-content" id="event02">
-							<h3>SPAVe</h3>
+							<h3>S-PAVe</h3>
 							<p>S-PAVe i.e. the Student Professional Awareness Venture - is a student’s first look into the professional world of management, business, and estimates. Guess estimates and case studies require no more than aptitude, logic, and out of the box thinking. It’s something everyone’s capable of doing but only a few are successful at. If you’ve chosen to take the “non-tech road” or just simply want a break from all the technical/engineering “stuff” and rattle your brain you’d want to try your hand at current-X and (S)PAVe your way to success.</p>
 						</div>
 					</div>
@@ -118,7 +98,9 @@
 			<tr>
 				<td>
 					<div class="event">
-						<div class="event-logo" data-pos="bl" data-event="#event03">Junkyard</div>
+						<div class="event-logo" data-pos="bl" data-event="#event03">
+						<img src="imgs/logos/junky.png" id="junky_icon">
+						</div>
 						<div class="event-content" id="event03">
 							<h3>Junkyard</h3>
 							<p>The true essence of being an engineer is the ability to be ‘The Creator’. An engineer can convert what a layman would call trash, into treasure.</p><p>Using the provided materials, the participant is expected to make a value added commodity that may have some practical use. Limited resources, limited time and a problem to solve. That’s what ‘Junkyard’ is all about. All that you need to do, is some “Juggad from Kabbad”. Put on your hats of creativity, get ready to dirty your hands, bring out the genius within and look hard before you decide to discard the diamond in the rock. Let the Battle of Trash begin!</p>
@@ -127,7 +109,9 @@
 				</td>
 				<td>
 					<div class="event">
-						<div class="event-logo" data-pos="br" data-event="#event04">Vihaan</div>
+						<div class="event-logo" data-pos="br" data-event="#event04">
+						<img src="imgs/logos/vihaan.png" id="vihaan_logo">
+						</div>
 						<div class="event-content" id="event04">
 							<h3>Vihaan</h3>
 							<p>Vihaan is the event organized by IEEE DTU Women in Engineering (WIE) Affinity Group, which is the largest professional organization dedicated to promoting women scientists and engineers and inspiring young girls to find their technical aptitude.</p>
@@ -137,6 +121,15 @@
 				</td>
 			</tr>
 		</table>
+	</div>
+	
+	<div id="contact">
+		<h1>Contact Us</h1>
+		<p>Akansha Yadav<br>+91-9654664587</p>
+		<p>Garima Mishra<br>+91-7042824880</p>
+		<p>Megha Rohilla<br>+91-8860937882</p>
+		<p>Mudit Aggarwal<br>+91-9811865577</p>
+		<p>Email us at <br><a href="mailto:contact.repertoiredtu@gmail.com">contact.ieeedtu@gmail.com</a></p>
 	</div>
 	
 	<footer id="footer">
@@ -150,6 +143,7 @@
 	<script>
 		window.jQuery || document.write('<script src="lib/jquery/jquery-2.1.3.min.js"><\/script>')
 	</script>
+	<script src="lib/jcider.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 

@@ -1,15 +1,25 @@
 /* Application Styles */
-
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
 html {
-	background-image: url();
-	background-repeat: repeat;
+	background-image: url(../imgs/stage_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-attachment: fixed;
+	background-position: top
 }
 
 body {
 	width: 80%;
 	margin: 5.5em auto 1em;
 	padding: 0.5em;
-	background-color: hsla(0,0%,90%,0.8);
+	background-color: hsla(0,0%,95%,0.8);
+	border-radius: 10px;
+	font-family: Nunito, sans-serif;
+	font-weight: 400
+}
+
+h1 {
+	font-weight: 700
 }
 header {
 	width: 100%;
@@ -19,7 +29,7 @@ header {
 	left: 0;
 	z-index: 100;
 	opacity: 0.90;
-	background-color: white;
+	background-color: #19b4cb;
 	z-index: 100
 }
 
@@ -98,4 +108,65 @@ header nav ul li a:hover {
 	filter: grayscale(0%);
 	box-shadow: 0 0 2px 2px gray;
 }
+
+
+#about {
+	display: block;
+	width: 90%;
+	margin: 2em auto;
+	padding: 1em;
+}
+
+#about h1 {
+	text-align: center;
+	margin-bottom: 0
+}
+
+#about p {
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+#bCont {
+	display: block;
+	margin: 1em auto 0;
+	padding: 1em;
+	text-align: center
+}
+
+#bCont a {
+	text-decoration: underline
+}
+
+#bCont p {
+	display: inline-block;
+	margin: 0 2em 1em;
+}
+
+#contact {
+	text-align: center
+}
+
+caption {
+	clear: both;
+	text-align: center;
+	position:
+}
+
+#spave_icon {
+	background: #f16e2a
+}
+
+#junky_icon {
+	background: #96aa3b
+}
+
+#vihaan_logo {
+	background: #be1e74
+}
+
+#panache_icon {
+	background: #fcd50b
+}
+
 
